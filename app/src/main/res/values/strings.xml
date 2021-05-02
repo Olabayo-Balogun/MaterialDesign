@@ -4,4 +4,12 @@
     <string name="hint_password">Password</string>
     <string name="shr_button_next">Next</string>
     <string name="shr_button_cancel">Cancel</string>
+    
+    <string-array name="currency">
+        <item>Currency</item>
+        <item>Dollars</item>
+        <item>Naira</item>
+        <item>Pounds</item>
+        <item>Euros</item>
+    </string-array>
 </resources>
