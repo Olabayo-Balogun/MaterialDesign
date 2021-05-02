@@ -74,17 +74,27 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="I am a student"
-        android:textSize="24sp"
+        android:text="I am Levi Ackerman"
+        android:textSize="25sp"
         android:textColor="@color/teal_200"
         android:textStyle="bold"
         android:textAllCaps="true"/>
 
     <ImageView
         android:id="@+id/Image"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
+        android:layout_width="195dp"
+        android:layout_height="150dp"
         android:src="@drawable/levi"
+        android:layout_centerVertical="true"
         android:layout_below="@id/textView"
         android:layout_marginTop="20dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter"
+        android:layout_below="@id/Image"
+        android:layout_marginTop="10dp"
+        android:elevation="@dimen/cardview_default_elevation"
+        android:background="@drawable/circular_button"/>
 </RelativeLayout>
